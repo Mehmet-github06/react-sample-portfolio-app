@@ -1,0 +1,71 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.contact-bgImg-container{
+    @include bgImg(100vh, $main-bgImg-path);
+    nav{
+        // border:2px solid red;
+        height: 40vh;
+    }
+}
+
+.contact{
+    // border:2px solid red;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 1.5rem;
+        gap: 2.5rem 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-secondary{
+        color: $secondary-color;
+    }
+}
+
+@include media-xsm {
+
+    .contact {
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+      &__list {
+        gap: 2rem 1.2rem;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  @include media-sm {
+
+    .contact {
+      h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+      }
+      &__list {
+        gap: 2.5rem 2rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  @include media-lg{
+    .contact__list {
+        flex-direction: row;
+      }
+  }

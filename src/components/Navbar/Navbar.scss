@@ -1,0 +1,88 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.nav{
+    // border: 2px solid red;
+    height: 10vh;
+    padding: 1rem;
+
+    &__list{
+        text-align: right;
+    }
+    &__item{
+        display: inline;
+        padding: 1rem;
+    }
+
+    &__link{
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: $font-family;
+        // transition: all 1s;
+        @include transition(1s);
+
+
+        &:hover{
+            color: blue;
+        }
+        &--active{
+            color: $secondary-color;
+        }
+    }
+}
+
+@include media-xsm {
+    .nav {
+        padding: 0.5rem;
+        &__list {
+          text-align: center;
+        }
+        &__item {
+          padding-right: 0.7rem;
+        }
+        .nav__link {
+          font-size: 0.9rem;
+        }
+      }
+}
+
+@include media-sm {
+    .nav {
+        padding: 0.7rem;
+        &__list {
+          text-align: right;
+        }
+        &__item {
+          padding-right: 1rem;
+        }
+        .nav__link {
+          font-size: 1rem;
+        }
+      }
+}
+
+@include media-md {
+    .nav {
+        &__item {
+          padding-right: 1.3rem;
+        }
+        .nav__link {
+          font-size: 1.3rem;
+        }
+      }
+}
+
+@include media-lg {
+    .nav {
+        &__item {
+          padding-right: 1.5rem;
+        }
+        .nav__link {
+          font-size: 1.5rem;
+        }
+      }
+}
+.active{
+  color: $secondary-color;
+}
