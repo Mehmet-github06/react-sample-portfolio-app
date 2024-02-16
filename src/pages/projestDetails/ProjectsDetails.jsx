@@ -7,7 +7,7 @@ import NotFound from "../NotFound/NotFound";
 const ProjectDetails = () => {
   const navigate = useNavigate();
   const { id } = useParams();
-  const [error, setError] = useState(true);
+//   const [error, setError] = useState(true);
 
   const filteredImage = data.filter((item) => item.id === Number(id));
 

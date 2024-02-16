@@ -1,4 +1,4 @@
-import "./About.scss"
+import './About.scss';
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
     <div className="about__container">
       <div className="about__job">
         <h2 className="text-secondary">2020 - 2021</h2>
-        <h3>CLARUSWAY</h3>
+        <h3>Mehmet Doğan</h3>
         <h6>Instructor &amp; Full Stack Developer</h6>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
