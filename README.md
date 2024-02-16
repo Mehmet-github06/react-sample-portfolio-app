@@ -1,11 +1,11 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+<p>Mehmet Doğan<img align="right"
+  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfC5piXjyZLdADKwIhz2UPihLZF3Z8DWaitQ&usqp=CAU"  width="70px"></p>
 
-# Project-006 : Sass Portfolio with React Router (RP-06)
+# Portfolio Wednesday
 
 ## Description
 
-Project aims to create a Sass Portfolio with Router.
+The project aims to create a Sass Portfolio with Router. For example, the Wednesday series was created.
 
 ## Problem Statement
 
@@ -65,7 +65,7 @@ SOLUTION
 
 ## Expected Outcome
 
-![Sass Portfolio with React Router](sass.gif)
+![Sass Portfolio with React Router](./public/assets/Animation.gif)
 
 ## Objective
 
@@ -76,6 +76,8 @@ Build a Sass Portfolio with using ReactJS, react-router and sass.
 - HTML
 
 - CSS
+
+- SASS
 
 - JS
 
