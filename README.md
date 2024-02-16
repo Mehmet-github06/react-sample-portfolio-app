@@ -109,6 +109,6 @@ Build a Sass Portfolio with using ReactJS, react-router and sass.
 
 ## Demo
 
-<a href="https://react-router-sass-project.vercel.app/">Sass Portfolio with React Router</a>
+<a href="https://react-potfolio-sass-router.vercel.app/">Portfolio Wednesday</a>
 
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
